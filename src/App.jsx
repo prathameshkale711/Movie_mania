@@ -10,13 +10,13 @@ import Aboutus from "./pages/Aboutus";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
-//import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Movies from "./pages/Movies";
 //import HeroSection from "./Components/Herosection";
 function App() {
   return (
     <BrowserRouter>
-
+    <Navbar/>
    
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../Components/Navbar'
 import movieData from '../lib/movie-data.jsx'
 import MovieCard from '../Components/Moviecard.jsx'
 

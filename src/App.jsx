@@ -10,7 +10,7 @@ import Aboutus from "./pages/Aboutus";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
-import Navbar from "../Components/Navbar";
+import Navbar from "./Components/Navbar";
 import Movies from "./pages/Movies";
 //import HeroSection from "./Components/Herosection";
 function App() {

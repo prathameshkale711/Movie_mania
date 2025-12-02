@@ -3,9 +3,9 @@ import React from 'react';
 export default function Footer() {
   return (
 //Stick the footer to the bottom of the page
-  <footer className="bg-neutral-200 text-center text-white dark:bg-neutral-600 dark:text-neutral-200 mt-60">
-    <div className="container pt-9">
-      <div className="mb-9 flex justify-center">
+  <footer className="bg-transparent text-center text-white dark:bg-neutral-600 dark:text-neutral-200  mt-45">
+    <div className="container pt-5">
+      <div className="mb-5 ml-55 flex justify-center">
         <a className="mr-9 text-neutral-800 dark:text-neutral-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ export default function Footer() {
     {/* <!--Copyright section--> */}
     <div
       className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-      © 2023 Copyright:
+      © 2025 Copyright:
       <a
         className="text-neutral-800 dark:text-neutral-400"
         href="https://tw-elements.com/"

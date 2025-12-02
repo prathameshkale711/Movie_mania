@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react'
-import Navbar from '../Components/Navbar'
-//import movieData from '../lib/movie-data.jsx'
+import Navbar from '../Components/Navbar.jsx'
+import movieData from '../lib/movie-data.jsx'
 import MovieCard from '../Components/Moviecard.jsx'
 
-const Movies = () => {
+const Tvshows = () => {
 
  const [movieData, setMovieData] = useState([]);
 
     useEffect(() => {
         
         const fetchMovie = async () => {
-            const response = await fetch('https://api.tvmaze.com/shows?page=1');
+            const response = await fetch('https://api.tvmaze.com/shows?page=2');
             const movies = await response.json();
             setMovieData(movies);
         }
@@ -22,6 +22,7 @@ const Movies = () => {
 
   return (
     <div>
+        <h1>pkkkkkk</h1>
         
         <div className='  text-white flex flex-wrap justify-center h-auto mt-10 mx-40'>
             {
@@ -36,4 +37,4 @@ const Movies = () => {
   )
 }
 
-export default Movies
+export default Tvshows
